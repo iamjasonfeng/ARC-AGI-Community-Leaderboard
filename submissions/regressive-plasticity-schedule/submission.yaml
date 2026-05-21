@@ -1,0 +1,35 @@
+name: "Regressive Plasticity Schedule"
+
+authors:
+  - name: "Jason Feng"
+    affiliation: "Independent"
+    url: ""
+    twitter: "https://x.com/iamjasonfeng"
+
+citation: ""
+
+description: >
+  Regressive Plasticity Schedule (RPS) is a two-stage post-training schedule
+  inspired by human developmental plasticity. The model is first trained on
+  easier ARC-style examples with higher plasticity, then trained on harder
+  ARC-AGI-2 examples with a lower learning rate. This submission uses Qwen3-8B
+  with DPO/LoRA fine-tuning and focuses on ARC-style reasoning and
+  program-synthesis reliability.
+
+code_url: "https://github.com/iamjasonfeng/RPS"
+
+paper_url: ""
+twitter_url: ""
+
+versions:
+  - version: "1.0"
+    date: 2026-05-21
+    changes: "Initial community leaderboard submission"
+    models:
+      - name: "Qwen3-8B RPS"
+    scores:
+      - benchmark: "arc-agi-1"
+        score: 4.05727923627685
+        set: "public"
+        cost: 0.00
+     
