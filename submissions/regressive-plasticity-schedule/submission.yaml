@@ -16,9 +16,9 @@ description: >
   with DPO/LoRA fine-tuning and focuses on ARC-style reasoning and
   program-synthesis reliability.
 
-code_url: "https://github.com/iamjasonfeng/RPS"
+code_url: "https://www.kaggle.com/code/iamjasonfeng/rps-arc-agi-1"
 
-paper_url: ""
+paper_url: "https://github.com/iamjasonfeng/RPS-Paper"
 twitter_url: ""
 
 versions:
